@@ -1,0 +1,97 @@
+/*ptopiedades da pagina */
+*{
+    margin:0;
+    padding:0;
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: ;
+}
+
+.menu{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    align-items:center;
+    background: black;
+    width:100%;
+    height:70px;
+}
+    
+nav a,li{
+    text-decoration:none;
+    font-size:20px;
+    color:white;
+    list-style:none;
+    padding:10px;
+}
+    
+a{
+    text-decoration:none;
+    font-size:20px;
+    color:white;
+    list-style:none;
+    padding:10px;
+}
+    
+nav{
+    display:flex;
+}
+    
+li{
+    text-decoration:none;
+}
+
+/*perte responsavel por organizar os itens*/
+.cadastrados{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    
+    
+    }
+
+/*estilização da tabela*/
+
+table {
+    width: 1000px;
+    border-collapse: collapse;
+    margin-bottom: 100px;
+}
+table thead tr, table tbody tr:not(:last-child) {
+    border-bottom: 1px solid hsl(0, 0%, 70%);
+}
+table tr td, table tr th {
+    padding: 1em;
+    text-align: left;
+}
+table tr td[colspan] {
+    text-align: center;
+}
+table tbody tr:hover {
+    background: hsl(0, 0%, 95%);
+}
+
+.lista{
+display: flex;
+flex-direction: column;
+padding: 100px;
+    margin-bottom: -200px;
+}
+
+    
+    
+
+    #tituloCadastrados{
+        color: black;
+        font-size: 40px;
+        margin-top:-100px;
+        padding: 60px;
+    }
